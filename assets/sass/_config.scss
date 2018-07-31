@@ -1,0 +1,59 @@
+// _config.scss
+
+/**
+ * Font Family -- Need to get text
+
+  Questions: Do the OpenSans/Helvetica etc always stay the same?
+ */
+$font-heading						  : "proxima-nova-extra-condensed", "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-default							: "lato", "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fa												: "FontAwesome", FontAwesome;
+
+
+/**
+ * Colors - primary, secondary, tertiary is completed
+ */
+
+$color-primary            : #074d64; // Primary Color Peach : rgb value 7, 77, 100
+$color-primary-dark       : darken($color-primary, 10%);
+$color-primary-light      : lighten($color-primary, 10%);
+
+$color-secondary          : #b6262f; // Secondary Color Blue : rgb value 182, 38, 47
+$color-secondary-dark     : darken($color-secondary, 10%);
+$color-secondary-light    : lighten($color-secondary, 10%);
+
+$color-tertiary          : #80bcba; // Tertiary Color Teal : rgb value 128, 188, 186
+$color-tertiary-dark     : darken($color-tertiary, 10%); 
+$color-tertiary-light    : lighten($color-tertiary, 10%); 
+
+$color-gray       				: #eff1f4; // Gray - rgb( 239, 241, 244) 
+$color-gray-dark  				: #363636; // Dark Gray - rgb(54, 54, 54)
+$color-gray-light 				: lighten($color-gray-dark, 10%); //??? 
+
+$color-black              : #000;
+$color-white         			: #fff;
+
+$color-anchor-default     : #ba333b;
+$color-text-default     	: #363636; // Text Gray - rgb( 54, 54, 54)
+$color-text-light         : #595a5c;
+
+$color-success          	: #94df60;
+$color-error            	: #e16060;
+
+/**
+ * Breakpoints
+ */
+$breakpoint-mobile : 767px;
+
+
+/**
+ * Transitions
+ */
+$transitions : (
+  default : ease-in-out, 
+  cubic   : cubic-bezier(.64,.09,.08,1)
+);
+
+
+
+

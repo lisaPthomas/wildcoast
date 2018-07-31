@@ -1,0 +1,17 @@
+// _forms.scss
+
+
+
+/**
+ * Variables
+ */
+$input : (
+  height: 50px,
+  height-large: 70px,
+);
+
+input {
+  height: map-get($input, height );
+  background: transparent;
+  color: #ffffff;
+}

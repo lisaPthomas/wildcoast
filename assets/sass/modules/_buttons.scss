@@ -1,0 +1,42 @@
+// _buttons.scss
+
+$btn: (
+  height: 50px,
+  padding: 0px 50px,
+);
+
+
+.btn {
+ 	height: map-get($btn, height);
+	padding: map-get($btn, padding);
+	display: inline-block;
+	font-family: $font-default;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: map-get($btn, height);
+	letter-spacing: 1px;
+	@include transition(background 200ms ease-in-out, color 200ms ease-in-out);
+	
+	&.btn-white {
+		background-color: $color-white;
+		color: $color-secondary;
+		min-width: 200px;
+		text-decoration: none;
+		font-weight: 600;
+
+		&.btn-outline {
+			border: 1px solid;
+		}
+
+	}
+	&.btn-red {
+		background-color: $color-secondary;
+		color: #ffffff;
+		min-width: 200px;
+	}
+
+}
+
+
+
